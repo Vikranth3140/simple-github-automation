@@ -2,8 +2,8 @@
 from github_automation.issue_management import create_issue
 
 def test_create_issue():
-    # Replace with a real repo for testing
-    repo_name = "yourusername/test-repo"
+    print("Running test_create_issue...")  # Add this line
+    repo_name = "Vikranth3140/GitHub-Automation-Tools"
     title = "Test Issue"
     body = "This is a test issue body."
 
