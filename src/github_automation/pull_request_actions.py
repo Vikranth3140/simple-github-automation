@@ -35,7 +35,9 @@ def create_pull_request(repo_name, head, base, title, body=""):
     if response.status_code == 201:
         return response.json()  # Success, PR created
     else:
-        return {"error": response.json().get("message", "Failed to create pull request")}
+        error_message = response.json().get("message", "Failed to create pull request")
+        errors = response.json().get("errors", [])
+        return {"error": error_message, "details": errors}
 
 # Function to add a label to an existing pull request
 def add_label_to_pr(repo_name, pr_number, labels):
