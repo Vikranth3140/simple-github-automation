@@ -2,7 +2,7 @@
 from src.github_automation.issue_management import create_issue, update_issue, close_issue
 
 # Replace this with a test repo in the "username/repo" format
-test_repo = "your_username/test_repo"
+test_repo = "Vikranth3140/GitHub-Automation-Tools"
 
 # 1. Test creating an issue
 new_issue = create_issue(test_repo, "Test Issue", "This is a test issue created via the API.")
