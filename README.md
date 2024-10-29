@@ -2,6 +2,8 @@
 
 **GitHub Automation Tools** is a Python package that allows you to automate common GitHub tasks, such as managing issues, automating pull requests, retrieving repository insights, and adding labels based on keywords or user mentions.
 
+View it at [PyPI](https://pypi.org/project/simple-github-automation/0.1.0/)
+
 ## Features
 
 - **Issue Management**: Create, update, and close issues programmatically.
