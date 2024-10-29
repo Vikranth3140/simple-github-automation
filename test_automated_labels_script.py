@@ -1,5 +1,5 @@
 # test_automated_labels_script.py
-from src.github_automation.automated_labels import add_labels_by_keywords, add_labels_by_mentions
+from src.simple_github_automation.automated_labels import add_labels_by_keywords, add_labels_by_mentions
 
 # Replace with your test repository and issue/PR number
 repo_name = "Vikranth3140/GitHub-Automation-Tools"

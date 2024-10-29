@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from src.github_automation.automated_labels import add_labels_by_keywords, add_labels_by_mentions
+from src.simple_github_automation.automated_labels import add_labels_by_keywords, add_labels_by_mentions
 
 class TestAutomatedLabels(unittest.TestCase):
 

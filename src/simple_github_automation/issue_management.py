@@ -1,5 +1,5 @@
 import requests
-from github_automation.config import GITHUB_TOKEN
+from simple_github_automation.config import GITHUB_TOKEN
 
 # Helper function to get headers for API requests
 def get_headers():

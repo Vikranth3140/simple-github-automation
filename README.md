@@ -16,7 +16,7 @@ Yes, adding the directory structure is a great idea! It gives users a clear unde
 To install the package, use the following command:
 
 ```bash
-pip install github_automation
+pip install simple_github_automation
 ```
 
 ## Directory Structure
@@ -24,9 +24,9 @@ pip install github_automation
 The project is organized as follows:
 
 ```plaintext
-github_automation/
+simple_github_automation/
 ├── src/
-│   └── github_automation/
+│   └── simple_github_automation/
 │       ├── __init__.py                  # Initializes the package
 │       ├── issue_management.py          # Issue management functions (create, update, close issues)
 │       ├── pull_request_actions.py      # Pull request automation functions (create PR, add label, comment)
@@ -45,7 +45,7 @@ github_automation/
 └── .gitignore                           # File specifying ignored files and folders
 ```
 
-Each section of the `src/github_automation/` folder corresponds to specific functionality, with tests in the `tests/` folder.
+Each section of the `src/simple_github_automation/` folder corresponds to specific functionality, with tests in the `tests/` folder.
 
 ## Configuration
 

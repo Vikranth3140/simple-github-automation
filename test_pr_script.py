@@ -1,5 +1,5 @@
 # test_pr_script.py
-from src.github_automation.pull_request_actions import create_pull_request, add_label_to_pr, post_comment_to_pr
+from src.simple_github_automation.pull_request_actions import create_pull_request, add_label_to_pr, post_comment_to_pr
 
 # Replace with your test repository and branches
 repo_name = "Vikranth3140/GitHub-Automation-Tools"

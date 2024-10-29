@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from src.github_automation.repo_insights import get_repo_stats, list_contributors, get_open_issues_count
+from src.simple_github_automation.repo_insights import get_repo_stats, list_contributors, get_open_issues_count
 
 class TestRepoInsights(unittest.TestCase):
 

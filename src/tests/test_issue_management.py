@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from src.github_automation.issue_management import create_issue, update_issue, close_issue
+from src.simple_github_automation.issue_management import create_issue, update_issue, close_issue
 
 class TestIssueManagement(unittest.TestCase):
 

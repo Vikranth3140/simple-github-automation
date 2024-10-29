@@ -1,5 +1,5 @@
 # test_repo_insights_script.py
-from src.github_automation.repo_insights import get_repo_stats, list_contributors, get_open_issues_count
+from src.simple_github_automation.repo_insights import get_repo_stats, list_contributors, get_open_issues_count
 
 # Replace with your test repository
 repo_name = "Vikranth3140/GitHub-Automation-Tools"

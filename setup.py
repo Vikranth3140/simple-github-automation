@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="github_automation",
+    name="simple-github-automation",
     version="0.1.0",
     author="Vikranth Udandarao",
     author_email="vikranth22570@iiitd.ac.in",

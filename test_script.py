@@ -1,5 +1,5 @@
 # test_script.py
-from src.github_automation.issue_management import create_issue, update_issue, close_issue
+from src.simple_github_automation.issue_management import create_issue, update_issue, close_issue
 
 # Replace this with a test repo in the "username/repo" format
 test_repo = "Vikranth3140/GitHub-Automation-Tools"
