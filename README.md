@@ -1,6 +1,6 @@
-# GitHub Automation Tools
+# simple github automation
 
-**GitHub Automation Tools** is a Python package that allows you to automate common GitHub tasks, such as managing issues, automating pull requests, retrieving repository insights, and adding labels based on keywords or user mentions.
+**simple github automation** is a Python package that allows you to automate common GitHub tasks, such as managing issues, automating pull requests, retrieving repository insights, and adding labels based on keywords or user mentions.
 
 View it at [PyPI](https://pypi.org/project/simple-github-automation/0.1.0/)
 
@@ -71,7 +71,7 @@ To use this package, you need a GitHub Personal Access Token (PAT) with the nece
 
 #### Creating an Issue
 ```python
-from github_automation.issue_management import create_issue
+from simple_github_automation.issue_management import create_issue
 
 repo_name = "your_username/repo_name"
 response = create_issue(repo_name, "New Issue Title", "Issue description here")
@@ -80,7 +80,7 @@ print(response)
 
 #### Updating an Issue
 ```python
-from github_automation.issue_management import update_issue
+from simple_github_automation.issue_management import update_issue
 
 issue_number = 1
 response = update_issue(repo_name, issue_number, title="Updated Title", body="Updated description")
@@ -89,7 +89,7 @@ print(response)
 
 #### Closing an Issue
 ```python
-from github_automation.issue_management import close_issue
+from simple_github_automation.issue_management import close_issue
 
 response = close_issue(repo_name, issue_number)
 print(response)
@@ -99,7 +99,7 @@ print(response)
 
 #### Creating a Pull Request
 ```python
-from github_automation.pull_request_actions import create_pull_request
+from simple_github_automation.pull_request_actions import create_pull_request
 
 response = create_pull_request(repo_name, "feature-branch", "main", "New PR Title", "Description of PR")
 print(response)
@@ -107,7 +107,7 @@ print(response)
 
 #### Adding Labels to a PR
 ```python
-from github_automation.pull_request_actions import add_label_to_pr
+from simple_github_automation.pull_request_actions import add_label_to_pr
 
 response = add_label_to_pr(repo_name, pr_number, ["bug", "enhancement"])
 print(response)
@@ -115,7 +115,7 @@ print(response)
 
 #### Posting a Comment on a PR
 ```python
-from github_automation.pull_request_actions import post_comment_to_pr
+from simple_github_automation.pull_request_actions import post_comment_to_pr
 
 response = post_comment_to_pr(repo_name, pr_number, "This is a comment on the PR.")
 print(response)
@@ -125,7 +125,7 @@ print(response)
 
 #### Getting Repository Stats
 ```python
-from github_automation.repo_insights import get_repo_stats
+from simple_github_automation.repo_insights import get_repo_stats
 
 response = get_repo_stats(repo_name)
 print(response)
@@ -133,7 +133,7 @@ print(response)
 
 #### Listing Contributors
 ```python
-from github_automation.repo_insights import list_contributors
+from simple_github_automation.repo_insights import list_contributors
 
 response = list_contributors(repo_name)
 print(response)
@@ -141,7 +141,7 @@ print(response)
 
 #### Getting Open Issues Count
 ```python
-from github_automation.repo_insights import get_open_issues_count
+from simple_github_automation.repo_insights import get_open_issues_count
 
 response = get_open_issues_count(repo_name)
 print(response)
@@ -151,7 +151,7 @@ print(response)
 
 #### Adding Labels Based on Keywords
 ```python
-from github_automation.automated_labels import add_labels_by_keywords
+from simple_github_automation.automated_labels import add_labels_by_keywords
 
 keyword_label_map = {
     "bug": "bug",
@@ -164,7 +164,7 @@ print(response)
 
 #### Adding Labels Based on Mentions
 ```python
-from github_automation.automated_labels import add_labels_by_mentions
+from simple_github_automation.automated_labels import add_labels_by_mentions
 
 mention_label_map = {
     "username": "assigned"
